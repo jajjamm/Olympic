@@ -1,0 +1,61 @@
+.body{
+  background-image: url("https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_md_2x/f_auto/primary/d1fpfljg04lwl1qje9rh");
+}
+
+.header {
+    padding: 1px;
+    background: #622d8c;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: -8px;
+    align-content: space-around;
+}
+
+.headtext {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.parisolympics {
+    background-image:url("https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_md_2x/f_auto/primary/d1fpfljg04lwl1qje9rh") ;
+    text-align: center;
+    padding-top: 2.2rem;
+    text-size-adjust: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;    
+    text-align: center;
+    animation: colorRotate 6s linear 0s infinite;
+    
+
+}
+
+@keyframes colorRotate {
+    from {
+      color: #3b88d0;
+    }
+    10% {
+      color: #dfda44;
+    }
+    50% {
+      color: #000000;
+    }
+    75% {
+      color: #4cad10;
+    }
+    100% {
+      color: #ab1010;
+    }
+  }
+
+.foot {
+    padding: 2px;
+    background: #622d8c;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: -8px;
+    align-content: space-between;
+    text-align: center;
+    margin-top: 78px;
+}
